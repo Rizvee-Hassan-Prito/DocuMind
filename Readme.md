@@ -45,24 +45,29 @@ Backend API: http://localhost:8000
 
 ### Environment Setup: ▶️ How to Run without Docker
 
-1. **Create a virtual environment and install dependencies:**
+1. Install tesseract-ocr using the tesseract-ocr-setup-3.02.02.exe file.
+After installation, update the tesseract_cmd path in the backend/utils/util_functions.py file by replacing the placeholder with the actual installation path:
+```bash 
+pytesseract.pytesseract.tesseract_cmd = r'Include Tesseract-OCR installation path' 
+``` 
+
+2. **Create a virtual environment and install dependencies:**
 ```bash
 python -m venv venv
 venv\Scripts\activate  # or source venv\bin\activate on Linux
 pip install -r requirements.txt
 ```
-2. **Add OPENAI_API_KEY and edit FastAPI_URL in all the .env files (Root folder, frontend, backend)::**
+3. **Add OPENAI_API_KEY and edit FastAPI_URL in all the .env files (Root folder, frontend, backend)::**
 ```bash
 OPENAI_API_KEY="Your OpenAI Api-Key"
 FastAPI_URL="http://localhost:8000"
 ```
-
-3. **Open a terminal and run FastAPI as the Backend**
+4. **Open a terminal and run FastAPI as the Backend**
 ```bash
 cd backend
 uvicorn main:app --reload
 ```
-4. **In a separate terminal, run StreamLit as the Frontend**
+5. **In a separate terminal, run StreamLit as the Frontend**
 ```bash
 cd frontend
 streamlit run app.py
@@ -148,5 +153,4 @@ FASTAPI_PORT=8000
 # Streamlit configuration
 STREAMLIT_HOST=127.0.0.1
 STREAMLIT_PORT=8501
-
 ```
