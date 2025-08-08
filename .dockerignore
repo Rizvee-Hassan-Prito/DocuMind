@@ -1,0 +1,4 @@
+venv/
+__pycache__/
+*.pyc
+tesseract-ocr-setup-3.02.02.exe
