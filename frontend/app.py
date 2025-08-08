@@ -18,7 +18,7 @@ if "document_ids" not in st.session_state:
 st.title(" 🧠📄 DocuMind – Intelligent Q&A over documents")
 st.subheader("Upload Document")
 # Upload Section
-uploaded_files = st.file_uploader("Upload pdf/docx/txt/csv/db files here:", type=["pdf", "docx", "txt", "csv", "db"], accept_multiple_files=True)
+uploaded_files = st.file_uploader("Upload pdf/docx/txt/csv/db files here:", type=["pdf", "docx", "txt", "csv", "db", "sqlite3"], accept_multiple_files=True)
 if uploaded_files:
     with st.spinner("🌀 Uploading files..."):
         for uploaded_file in uploaded_files:
@@ -70,4 +70,5 @@ if st.button("Get Answer"):
                         st.write("Source Info: ",sources[i]['filename'])
         else:
             st.error("Error fetching answer: " + res.text)
+
 
