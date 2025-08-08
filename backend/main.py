@@ -38,7 +38,7 @@ async def upload_file(file: UploadFile = File(...)):
         content = extract_text_from_image(image)
     elif suffix == "csv":
         content = extract_text_from_csv(file.file)
-    elif suffix == "db":
+    elif suffix == "db" or suffix == "sqlite3":
         with tempfile.NamedTemporaryFile(delete=False, suffix=".db") as tmp:
             tmp.write(await file.read())
             tmp.flush()
@@ -103,4 +103,5 @@ async def query_api(request: QueryRequest):
 if __name__ == "__main__":
     host = os.getenv("FASTAPI_HOST", "127.0.0.1")
     port = int(os.getenv("FASTAPI_PORT", 8000))
+
     uvicorn.run("main:app", host=host, port=port, reload=True)
