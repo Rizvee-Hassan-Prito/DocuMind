@@ -76,7 +76,7 @@ To use the features, follow the below steps:
 3. **Press Get Answer** 
 
 #### 📸 UI Image 
-![alt text](image.png)
+<img width="318" height="311" alt="image" src="https://github.com/user-attachments/assets/21202f61-0aef-4588-a06e-3175b56bed85" />
 
 
 ## 🔌 API Usage
@@ -148,4 +148,5 @@ FASTAPI_PORT=8000
 # Streamlit configuration
 STREAMLIT_HOST=127.0.0.1
 STREAMLIT_PORT=8501
+
 ```
