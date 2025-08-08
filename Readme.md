@@ -5,7 +5,7 @@ DocuMind is a full-stack, RAG-based (Retrieval-Augmented Generation) web applica
 
 Users can upload files in various formats including:
 
-Textual documents: PDF, DOCX, TXT, CSV, DB
+Textual documents: PDF, DOCX, TXT, CSV, DB, SQLITE3
 
 Image documents: PNG, JPG, JPEG, and scanned PDFs containing text
 
@@ -154,3 +154,4 @@ FASTAPI_PORT=8000
 STREAMLIT_HOST=127.0.0.1
 STREAMLIT_PORT=8501
 ```
+
