@@ -1,15 +1,15 @@
 # 🧠📄 DocuMind – Intelligent Q&A over documents
 
 ## 🔍 Overview
-DocuMind is a full-stack, RAG-based (Retrieval-Augmented Generation) web application that enables intelligent question-answering over a wide range of documents. Built with Streamlit, FastAPI, LangChain, Docker, and OpenAI’s GPT-4, this app empowers users to extract answers from both textual and image-based files.
+**DocuMind is a full-stack, RAG-based (Retrieval-Augmented Generation) web application that enables intelligent question-answering over a wide range of documents. Built with Streamlit, FastAPI, LangChain, Docker, and OpenAI’s GPT-4, this app empowers users to extract answers from both textual and image-based files.**
 
 Users can upload files in various formats including:
 
-Textual documents: PDF, DOCX, TXT, CSV, DB, SQLITE3
+- Textual documents: PDF, DOCX, TXT, CSV, DB, SQLITE3
 
-Image documents: PNG, JPG, JPEG, and scanned PDFs containing text
+- Image documents: PNG, JPG, JPEG, and scanned PDFs containing text
 
-For image-based content, the app performs OCR (Optical Character Recognition) to extract embedded text. Once processed, users can ask natural language questions, and the app responds using GPT-4 based on the extracted and semantically indexed content.
+**For image-based content, the app performs OCR (Optical Character Recognition) to extract embedded text. Once processed, users can ask natural language questions, and the app responds using GPT-4 based on the extracted and semantically indexed content.**
 
 Each answer includes:
 
@@ -18,6 +18,12 @@ Each answer includes:
 📂 The source file name(s) for transparency and traceability
 
 This system combines modern LLM capabilities with custom document understanding, offering a powerful tool for document analysis and automated insights.
+
+#### 📸 UI Image 
+<img width="318" height="311" alt="image" src="https://github.com/user-attachments/assets/21202f61-0aef-4588-a06e-3175b56bed85" />
+<img width="329" height="362" alt="image" src="https://github.com/user-attachments/assets/6d28e963-5d14-4628-a541-881576be2fd3" />
+<img width="314" height="168" alt="image" src="https://github.com/user-attachments/assets/0b9736fc-466a-497f-ab03-26dae15ffc3b" />
+<img width="341" height="244" alt="image" src="https://github.com/user-attachments/assets/070cb2b1-8ee8-4882-8d73-78d42a0b1387" />
 
 ## 🚀 Instructions
     
@@ -80,8 +86,6 @@ To use the features, follow the below steps:
 2. **Ask quetions based on the uploaded files**
 3. **Press Get Answer** 
 
-#### 📸 UI Image 
-<img width="318" height="311" alt="image" src="https://github.com/user-attachments/assets/21202f61-0aef-4588-a06e-3175b56bed85" />
 
 
 ## 🔌 API Usage
@@ -154,4 +158,5 @@ FASTAPI_PORT=8000
 STREAMLIT_HOST=127.0.0.1
 STREAMLIT_PORT=8501
 ```
+
 
