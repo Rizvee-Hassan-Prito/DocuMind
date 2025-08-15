@@ -19,7 +19,7 @@ Each answer includes:
 
 This system combines modern LLM capabilities with custom document understanding, offering a powerful tool for document analysis and automated insights.
 
-#### 📸 UI Image 
+## 📸 UI Image 
 
 <img width="329" height="362" alt="image" src="https://github.com/user-attachments/assets/6d28e963-5d14-4628-a541-881576be2fd3" />
 
@@ -160,6 +160,7 @@ FASTAPI_PORT=8000
 STREAMLIT_HOST=127.0.0.1
 STREAMLIT_PORT=8501
 ```
+
 
 
 
