@@ -23,9 +23,9 @@ This system combines modern LLM capabilities with custom document understanding,
 
 <img width="329" height="362" alt="image" src="https://github.com/user-attachments/assets/6d28e963-5d14-4628-a541-881576be2fd3" />
 
-<img width="314" height="244" alt="image" src="https://github.com/user-attachments/assets/0b9736fc-466a-497f-ab03-26dae15ffc3b" />
+<img width="314" height="362" alt="image" src="https://github.com/user-attachments/assets/0b9736fc-466a-497f-ab03-26dae15ffc3b" />
 
-<img width="341" height="244" alt="image" src="https://github.com/user-attachments/assets/070cb2b1-8ee8-4882-8d73-78d42a0b1387" />
+<img width="341" height="362" alt="image" src="https://github.com/user-attachments/assets/070cb2b1-8ee8-4882-8d73-78d42a0b1387" />
 
 ## 🚀 Instructions
     
