@@ -65,10 +65,11 @@ if st.button("Get Answer"):
                     st.write(f"Context {i+1}:")
                     st.text(context)
                     if "page" in sources[i]:
-                        st.write("Source Info: Page ",f"{sources[i]['page']}", "of ", sources[i]['filename'])
+                        st.success("Source Info: Page "+f"{sources[i]['page']}"+ " of "+ sources[i]['filename'])
                     else:
-                        st.write("Source Info: ",sources[i]['filename'])
+                        st.success("Source Info: "+sources[i]['filename'])
         else:
             st.error("Error fetching answer: " + res.text)
+
 
 
